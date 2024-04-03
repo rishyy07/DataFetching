@@ -37,10 +37,10 @@ function App() {
   )
 }
 
-function Onepost(props) {
+function Onepost({ title, body }) {
   return (
     <>
-      <li>
+      <li>post Title{title}
 
       </li>
     </>
